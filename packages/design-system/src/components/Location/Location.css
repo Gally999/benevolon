@@ -1,0 +1,14 @@
+@import '../../tokens.css';
+
+.ds-Location {
+  display: flex;
+  align-items: center;
+  color: var(--color-neutral-black);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-normal);
+}
+
+.ds-Location__icon {
+  margin-right: var(--spacing-sm);
+}

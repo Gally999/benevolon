@@ -1,0 +1,22 @@
+@import '../../tokens.css';
+
+.ds-TextWithIcon {
+  display: flex;
+  align-items: center;
+  color: var(--color-neutral-black);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+}
+
+.ds-TextWithIcon--left .ds-TextWithIcon__icon {
+  margin-right: var(--spacing-sm);
+}
+
+.ds-TextWithIcon--right .ds-TextWithIcon__icon {
+  margin-left: var(--spacing-sm);
+}
+
+.ds-TextWithIcon__text {
+  flex: 1;
+}

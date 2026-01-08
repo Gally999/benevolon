@@ -1,0 +1,16 @@
+@import '../../tokens.css';
+
+.ds-IconPlaceholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--color-neutral-gray-400); /* Bordure gris */
+  border-radius: var(--border-radius-md);
+  background-color: var(--color-neutral-gray-100); /* Fond léger pour contraste */
+  color: var(--color-neutral-black);
+  transition: border-color 0.2s ease;
+}
+
+.ds-IconPlaceholder:hover {
+  border-color: var(--color-neutral-black); /* Bordure noire au hover */
+}

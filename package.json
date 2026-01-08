@@ -1,0 +1,9 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev:storybook": "pnpm --filter @acme/design-system storybook",
+    "build:tokens": "pnpm --filter @acme/style-dictionary build"
+  }
+}
