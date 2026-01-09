@@ -1,0 +1,21 @@
+{
+  "name": "web-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@benevolon/design-system": "workspace:*"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "typescript": "^5.4.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^18.2.0"
+  }
+}

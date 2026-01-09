@@ -20,10 +20,13 @@ const meta: Meta<typeof Icon> = {
         'ArrowRight', 
         'ChevronLeft', 
         'ChevronRight', 
-        'Guitar', 
-        'Trash2',
-        'BookText',
-        'Banana',
+        'Music', 
+        'Leaf',
+        'BookOpen',
+        'Heart',
+        'Activity',
+        'Palette',
+
       ],
       description: 'Nom de l\'icône Lucide',
     },
@@ -124,20 +127,28 @@ export const AllIcons: Story = {
         <p>ChevronRight</p>
       </div>
       <div style={{ textAlign: 'center' }}>
-        <Icon {...args} name="Guitar" />
-        <p>Guitar</p>
+        <Icon {...args} name="Music" />
+        <p>Music</p>
       </div>
       <div style={{ textAlign: 'center' }}>
-        <Icon {...args} name="Trash2" />
-        <p>Trash</p>
+        <Icon {...args} name="Leaf" />
+        <p>Environnement</p>
       </div>
       <div style={{ textAlign: 'center' }}>
-        <Icon {...args} name="BookText" />
+        <Icon {...args} name="BookOpen" />
         <p>Book</p>
       </div>
       <div style={{ textAlign: 'center' }}>
-        <Icon {...args} name="Banana" />
-        <p>Banana</p>
+        <Icon {...args} name="Heart" />
+        <p>Charity</p>
+      </div>
+      <div style={{ textAlign: 'center' }}>
+        <Icon {...args} name="Activity" />
+        <p>Activity</p>
+      </div>
+      <div style={{ textAlign: 'center' }}>
+        <Icon {...args} name="Palette" />
+        <p>Art</p>
       </div>
     </div>
   ),

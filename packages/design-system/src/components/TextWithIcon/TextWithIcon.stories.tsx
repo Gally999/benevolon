@@ -24,6 +24,10 @@ const meta: Meta<typeof TextWithIcon> = {
     iconColor: {
       control: 'color',
     },
+    textSize: {
+      control: { type: 'select' },
+      options: ['sm', 'md', 'lg', 'xl', 'xxl'],
+    },
   },
 };
 
@@ -57,7 +61,15 @@ export const CustomColor: Story = {
   args: {
     text: 'Icône colorée',
     icon: 'CheckCircle',
-    iconColor: '#2f9e44', // Utilise une couleur de vos tokens si possible
+    iconColor: 'var(--color-success)', // Utilise une couleur de vos tokens si possible
+  },
+};
+
+export const CustomTextSize: Story = {
+  args: {
+    text: 'Taille du texte personnalisée',
+    icon: 'CheckCircle',
+    textSize: 'xxl',
   },
 };
 

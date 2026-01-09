@@ -20,3 +20,27 @@
 .ds-TextWithIcon__text {
   flex: 1;
 }
+
+.ds-TextWithIcon__text--sm {
+  font-size: var(--font-size-sm);
+}
+
+.ds-TextWithIcon__text--md {
+  font-size: var(--font-size-md);
+}
+
+.ds-TextWithIcon__text--lg {
+  font-size: var(--font-size-lg);
+}
+
+.ds-TextWithIcon__text--xl {
+  font-size: var(--font-size-xl);
+}
+
+.ds-TextWithIcon__text--xxl {
+  font-size: var(--font-size-xxl);
+}
+
+
+
+

@@ -8,7 +8,9 @@ export interface TextWithIconProps {
   iconPosition?: 'left' | 'right';
   iconSize?: number;
   iconColor?: string;
+  textSize?: 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
   className?: string;
+
 }
 
 export const TextWithIcon: React.FC<TextWithIconProps> = ({
@@ -17,6 +19,7 @@ export const TextWithIcon: React.FC<TextWithIconProps> = ({
   iconPosition = 'left',
   iconSize = 16,
   iconColor,
+  textSize,
   className = '',
 }) => {
   const iconElement = (
@@ -31,7 +34,7 @@ export const TextWithIcon: React.FC<TextWithIconProps> = ({
   return (
     <div className={`ds-TextWithIcon ds-TextWithIcon--${iconPosition} ${className}`}>
       {iconPosition === 'left' && iconElement}
-      <span className="ds-TextWithIcon__text">{text}</span>
+      <span className={`ds-TextWithIcon__text ${textSize ? `ds-TextWithIcon__text--${textSize}` : ''}`}>{text}</span>
       {iconPosition === 'right' && iconElement}
     </div>
   );
